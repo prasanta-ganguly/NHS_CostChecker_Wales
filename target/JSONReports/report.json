@@ -1,0 +1,596 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-04T22:45:53.331Z",
+        "before": [
+          {
+            "result": {
+              "duration": 15857000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.CostChecker_NHS_Wales.initialize()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Checking NHS costs for people from Wales with multiple data",
+        "description": "",
+        "id": "nhs-cost-checker-for-wales;checking-nhs-costs-for-people-from-wales-with-multiple-data;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1101000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.CostChecker_NHS_Wales.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 20997000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am a person from Wales",
+            "match": {
+              "location": "Steps.CostChecker_NHS_Wales.i_am_a_person_from_Wales()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 22682000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I put my circumstances into 10, 10, 1990, No, No, No, No, No, No, No, No, No,  the Checker tool",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 28
+                },
+                {
+                  "val": "10",
+                  "offset": 32
+                },
+                {
+                  "val": "1990",
+                  "offset": 36
+                },
+                {
+                  "val": "No",
+                  "offset": 42
+                },
+                {
+                  "val": "No",
+                  "offset": 46
+                },
+                {
+                  "val": "No",
+                  "offset": 50
+                },
+                {
+                  "val": "No",
+                  "offset": 54
+                },
+                {
+                  "val": "No",
+                  "offset": 58
+                },
+                {
+                  "val": "No",
+                  "offset": 62
+                },
+                {
+                  "val": "No",
+                  "offset": 66
+                },
+                {
+                  "val": "No",
+                  "offset": 70
+                },
+                {
+                  "val": "No",
+                  "offset": 74
+                },
+                {
+                  "val": "",
+                  "offset": 78
+                }
+              ],
+              "location": "Steps.CostChecker_NHS_Wales.i_put_my_circumstances_into_Day_Month_Year_Living_With_Partner_Claim_Benefit_Tax_Is_Pregnant_Injury_Illness_Is_Diabetes_Is_Glaucoma_Livein_Carehome_GetHelpFor_CoucilTax_Savings_MoreThan_16000_Savings_MoreThan_24000_the_Checker_tool(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2133000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should get a result of whether I will get help or not",
+            "match": {
+              "location": "Steps.CostChecker_NHS_Wales.i_should_get_a_result_of_whether_I_will_get_help_or_not()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-04T22:46:57.758Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7040000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.CostChecker_NHS_Wales.initialize()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Checking NHS costs for people from Wales with multiple data",
+        "description": "",
+        "id": "nhs-cost-checker-for-wales;checking-nhs-costs-for-people-from-wales-with-multiple-data;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 958000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.CostChecker_NHS_Wales.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11509000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am a person from Wales",
+            "match": {
+              "location": "Steps.CostChecker_NHS_Wales.i_am_a_person_from_Wales()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 22627000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I put my circumstances into 05, 02, 1980, Yes, No, Yes, Yes, No, Yes, No, No, Yes,  the Checker tool",
+            "match": {
+              "arguments": [
+                {
+                  "val": "05",
+                  "offset": 28
+                },
+                {
+                  "val": "02",
+                  "offset": 32
+                },
+                {
+                  "val": "1980",
+                  "offset": 36
+                },
+                {
+                  "val": "Yes",
+                  "offset": 42
+                },
+                {
+                  "val": "No",
+                  "offset": 47
+                },
+                {
+                  "val": "Yes",
+                  "offset": 51
+                },
+                {
+                  "val": "Yes",
+                  "offset": 56
+                },
+                {
+                  "val": "No",
+                  "offset": 61
+                },
+                {
+                  "val": "Yes",
+                  "offset": 65
+                },
+                {
+                  "val": "No",
+                  "offset": 70
+                },
+                {
+                  "val": "No",
+                  "offset": 74
+                },
+                {
+                  "val": "Yes",
+                  "offset": 78
+                },
+                {
+                  "val": "",
+                  "offset": 83
+                }
+              ],
+              "location": "Steps.CostChecker_NHS_Wales.i_put_my_circumstances_into_Day_Month_Year_Living_With_Partner_Claim_Benefit_Tax_Is_Pregnant_Injury_Illness_Is_Diabetes_Is_Glaucoma_Livein_Carehome_GetHelpFor_CoucilTax_Savings_MoreThan_16000_Savings_MoreThan_24000_the_Checker_tool(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2110000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should get a result of whether I will get help or not",
+            "match": {
+              "location": "Steps.CostChecker_NHS_Wales.i_should_get_a_result_of_whether_I_will_get_help_or_not()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-04T22:47:42.017Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7034000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.CostChecker_NHS_Wales.initialize()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Under 16 year old",
+        "description": "",
+        "id": "nhs-cost-checker-for-wales;under-16-year-old;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1034000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.CostChecker_NHS_Wales.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11614000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I am a person from Wales",
+            "match": {
+              "location": "Steps.CostChecker_NHS_Wales.i_am_a_person_from_Wales()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2961000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I declare my circumstances into 05, 03, 2010",
+            "match": {
+              "arguments": [
+                {
+                  "val": "05",
+                  "offset": 32
+                },
+                {
+                  "val": "03",
+                  "offset": 36
+                },
+                {
+                  "val": "2010",
+                  "offset": 40
+                }
+              ],
+              "location": "Steps.CostChecker_NHS_Wales.i_declare_my_circumstances_into_Day_Month_Year(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I should get a result of whether I will get help or not",
+            "match": {
+              "location": "Steps.CostChecker_NHS_Wales.i_should_get_a_result_of_whether_I_will_get_help_or_not()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-04T22:48:04.693Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7469000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.CostChecker_NHS_Wales.initialize()"
+            }
+          }
+        ],
+        "line": 36,
+        "name": "For school-college-university students",
+        "description": "",
+        "id": "nhs-cost-checker-for-wales;for-school-college-university-students;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1243000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.CostChecker_NHS_Wales.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11015000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I am a person from Wales",
+            "match": {
+              "location": "Steps.CostChecker_NHS_Wales.i_am_a_person_from_Wales()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 24965000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I enter values into 02, 11, 2003, No, No, No, No, No, No, No, No, No, No, ",
+            "match": {
+              "arguments": [
+                {
+                  "val": "02",
+                  "offset": 20
+                },
+                {
+                  "val": "11",
+                  "offset": 24
+                },
+                {
+                  "val": "2003",
+                  "offset": 28
+                },
+                {
+                  "val": "No",
+                  "offset": 34
+                },
+                {
+                  "val": "No",
+                  "offset": 38
+                },
+                {
+                  "val": "No",
+                  "offset": 42
+                },
+                {
+                  "val": "No",
+                  "offset": 46
+                },
+                {
+                  "val": "No",
+                  "offset": 50
+                },
+                {
+                  "val": "No",
+                  "offset": 54
+                },
+                {
+                  "val": "No",
+                  "offset": 58
+                },
+                {
+                  "val": "No",
+                  "offset": 62
+                },
+                {
+                  "val": "No",
+                  "offset": 66
+                },
+                {
+                  "val": "No",
+                  "offset": 70
+                },
+                {
+                  "val": "",
+                  "offset": 74
+                }
+              ],
+              "location": "Steps.CostChecker_NHS_Wales.i_put_my_circumstances_into_Day_Month_Year_Full_Time_Education_Living_With_Partner_Claim_Benefit_Tax_Is_Pregnant_Injury_Illness_Is_Diabetes_Is_Glaucoma_Livein_Carehome_GetHelpFor_CoucilTax_Savings_MoreThan_16000_Savings_MoreThan_24000_the_Checker_tool(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2119000000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I should get a result of whether I will get help or not",
+            "match": {
+              "location": "Steps.CostChecker_NHS_Wales.i_should_get_a_result_of_whether_I_will_get_help_or_not()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-04T22:48:51.563Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7116000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.CostChecker_NHS_Wales.initialize()"
+            }
+          }
+        ],
+        "line": 37,
+        "name": "For school-college-university students",
+        "description": "",
+        "id": "nhs-cost-checker-for-wales;for-school-college-university-students;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 926000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.CostChecker_NHS_Wales.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11883000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I am a person from Wales",
+            "match": {
+              "location": "Steps.CostChecker_NHS_Wales.i_am_a_person_from_Wales()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 25086000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I enter values into 12, 08, 2002, No, Yes, No, Yes, Yes, No, Yes, No, No, Yes, ",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12",
+                  "offset": 20
+                },
+                {
+                  "val": "08",
+                  "offset": 24
+                },
+                {
+                  "val": "2002",
+                  "offset": 28
+                },
+                {
+                  "val": "No",
+                  "offset": 34
+                },
+                {
+                  "val": "Yes",
+                  "offset": 38
+                },
+                {
+                  "val": "No",
+                  "offset": 43
+                },
+                {
+                  "val": "Yes",
+                  "offset": 47
+                },
+                {
+                  "val": "Yes",
+                  "offset": 52
+                },
+                {
+                  "val": "No",
+                  "offset": 57
+                },
+                {
+                  "val": "Yes",
+                  "offset": 61
+                },
+                {
+                  "val": "No",
+                  "offset": 66
+                },
+                {
+                  "val": "No",
+                  "offset": 70
+                },
+                {
+                  "val": "Yes",
+                  "offset": 74
+                },
+                {
+                  "val": "",
+                  "offset": 79
+                }
+              ],
+              "location": "Steps.CostChecker_NHS_Wales.i_put_my_circumstances_into_Day_Month_Year_Full_Time_Education_Living_With_Partner_Claim_Benefit_Tax_Is_Pregnant_Injury_Illness_Is_Diabetes_Is_Glaucoma_Livein_Carehome_GetHelpFor_CoucilTax_Savings_MoreThan_16000_Savings_MoreThan_24000_the_Checker_tool(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2136000000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I should get a result of whether I will get help or not",
+            "match": {
+              "location": "Steps.CostChecker_NHS_Wales.i_should_get_a_result_of_whether_I_will_get_help_or_not()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "NHS Cost Checker for Wales",
+    "description": "  To test the NHS cost for people from Wales",
+    "id": "nhs-cost-checker-for-wales",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/CostChecket_NHS_Wales.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="227.109">
+<testcase classname="NHS Cost Checker for Wales" name="Checking NHS costs for people from Wales with multiple data" time="64.303">
+<system-out><![CDATA[Given I am a person from Wales..............................................passed
+When I put my circumstances into 10, 10, 1990, No, No, No, No, No, No, No, No, No,  the Checker tool.passed
+Then I should get a result of whether I will get help or not................passed
+]]></system-out>
+</testcase>
+<testcase classname="NHS Cost Checker for Wales" name="Checking NHS costs for people from Wales with multiple data 2" time="44.257">
+<system-out><![CDATA[Given I am a person from Wales..............................................passed
+When I put my circumstances into 05, 02, 1980, Yes, No, Yes, Yes, No, Yes, No, No, Yes,  the Checker tool.passed
+Then I should get a result of whether I will get help or not................passed
+]]></system-out>
+</testcase>
+<testcase classname="NHS Cost Checker for Wales" name="Under 16 year old" time="22.667">
+<system-out><![CDATA[Given I am a person from Wales..............................................passed
+When I declare my circumstances into 05, 03, 2010...........................passed
+Then I should get a result of whether I will get help or not................passed
+]]></system-out>
+</testcase>
+<testcase classname="NHS Cost Checker for Wales" name="For school-college-university students" time="46.865">
+<system-out><![CDATA[Given I am a person from Wales..............................................passed
+When I enter values into 02, 11, 2003, No, No, No, No, No, No, No, No, No, No, .passed
+Then I should get a result of whether I will get help or not................passed
+]]></system-out>
+</testcase>
+<testcase classname="NHS Cost Checker for Wales" name="For school-college-university students 2" time="47.153">
+<system-out><![CDATA[Given I am a person from Wales..............................................passed
+When I enter values into 12, 08, 2002, No, Yes, No, Yes, Yes, No, Yes, No, No, Yes, .passed
+Then I should get a result of whether I will get help or not................passed
+]]></system-out>
+</testcase>
+</testsuite>
