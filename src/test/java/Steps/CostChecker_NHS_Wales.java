@@ -103,72 +103,72 @@ public class CostChecker_NHS_Wales extends baseClass{
 			ClickEle(allInOnePage.radioBtnNo);
 			ClickEle(allInOnePage.AllPageNextBtn);
 			Wait(2000);
-			Match(getWindowTitle(), "Do you have an injury or illness caused by serving in the armed forces?", "Matching pregnancy window title");
+			Match(getWindowTitle(), "Do you have an injury or illness caused by serving in the armed forces?", "Matching injury or illness window title");
 		}
 		else {
 			ClickEle(allInOnePage.radioBtnYes);
 			ClickEle(allInOnePage.AllPageNextBtn);
 			Wait(2000);
-			Match(getWindowTitle(), "Do you have an injury or illness caused by serving in the armed forces?", "Matching pregnancy window title");
+			Match(getWindowTitle(), "Do you have an injury or illness caused by serving in the armed forces?", "Matching injury or illness window title");
 		}
 		//answering injury and illness question
 		if(injuryIllness.equals("No")){
 			ClickEle(allInOnePage.radioBtnNo);
 			ClickEle(allInOnePage.AllPageNextBtn);
 			Wait(2000);
-			Match(getWindowTitle(), "Do you have diabetes?", "Matching pregnancy window title");					
+			Match(getWindowTitle(), "Do you have diabetes?", "Matching diabetes window title");					
 		}
 		else {
 			ClickEle(allInOnePage.radioBtnYes);
 			ClickEle(allInOnePage.AllPageNextBtn);
 			Wait(2000);
-			Match(getWindowTitle(), "Do you have diabetes?", "Matching pregnancy window title");
+			Match(getWindowTitle(), "Do you have diabetes?", "Matching diabetes window title");
 		}
 		//answering diabetes question
 		if(isDiabetes.equals("No")) {
 			ClickEle(allInOnePage.radioBtnNo);
 			ClickEle(allInOnePage.AllPageNextBtn);
 			Wait(2000);
-			Match(getWindowTitle(), "Do you have glaucoma?", "Matching pregnancy window title");
+			Match(getWindowTitle(), "Do you have glaucoma?", "Matching glaucoma window title");
 		}
 		else {
 			ClickEle(allInOnePage.radioBtnYes);
 			ClickEle(allInOnePage.AllPageNextBtn);
 			Wait(2000);
-			Match(getWindowTitle(), "Do you have glaucoma?", "Matching pregnancy window title");
+			Match(getWindowTitle(), "Do you have glaucoma?", "Matching glaucoma window title");
 		}
 		//answering glaucoma question
 		if(isGlaocoma.equals("No")){
 			ClickEle(allInOnePage.radioBtnNo);
 			ClickEle(allInOnePage.AllPageNextBtn);
 			Wait(2000);
-			Match(getWindowTitle(), "Do you live permanently in a care home?", "Matching pregnancy window title");
+			Match(getWindowTitle(), "Do you live permanently in a care home?", "Matching permanently care home window title");
 		}
 		else {
 			ClickEle(allInOnePage.radioBtnYes);
 			ClickEle(allInOnePage.AllPageNextBtn);
 			Wait(2000);
-			Match(getWindowTitle(), "Do you live permanently in a care home?", "Matching pregnancy window title");
+			Match(getWindowTitle(), "Do you live permanently in a care home?", "Matching permanently care home window title");
 		}
 		//answering care home question
 		if(liveInCareHome.equals("No")) {
 			ClickEle(allInOnePage.radioBtnNo);
 			ClickEle(allInOnePage.AllPageNextBtn);
 			Wait(2000);
-			Match(getWindowTitle(), "Do you have more than £16,000 in savings, investments or property?", "Matching pregnancy window title");
+			Match(getWindowTitle(), "Do you have more than £16,000 in savings, investments or property?", "Matching £16,000 in savings window title");
 		}
 		//answering earning, investment question
 		if(moreThan16000.equals("No")) {
 			ClickEle(allInOnePage.radioBtnNo);
 			ClickEle(allInOnePage.AllPageNextBtn);
 			Wait(2000);
-			Match(getWindowTitle(), "You get help with health costs", "Matching pregnancy window title");
+			Match(getWindowTitle(), "You get help with health costs", "Matching £16,000 in savings window title");
 		}
 		else {
 			ClickEle(allInOnePage.radioBtnYes);
 			ClickEle(allInOnePage.AllPageNextBtn);
 			Wait(2000);
-			Match(getWindowTitle(), "You get help with health costs", "Matching pregnancy window title");
+			Match(getWindowTitle(), "You get help with health costs", "Matching results window title");
 		}
 	}
 	
@@ -183,7 +183,7 @@ public class CostChecker_NHS_Wales extends baseClass{
 					TypeText(allInOnePage.dobPageYear, year);
 					ClickEle(allInOnePage.AllPageNextBtn);
 					Wait(2000);
-					Match(getWindowTitle(), "Because you're under 16 you get help paying NHS costs", "Matching pregnancy window title");
+					Match(getWindowTitle(), "Because you're under 16 you get help paying NHS costs", "Matching results window title"");
 	}
 }
 
@@ -214,7 +214,7 @@ public class CostChecker_NHS_Wales extends baseClass{
 					ClickEle(allInOnePage.radioBtnNo);
 					ClickEle(allInOnePage.AllPageNextBtn);
 					Wait(2000);
-					Match(getWindowTitle(), "Do you claim any benefits or tax credits?", "Matching partner page window title");
+					Match(getWindowTitle(), "Do you claim any benefits or tax credits?", "Matching benefits or tax window title");
 					
 				}
 				
@@ -243,39 +243,39 @@ public class CostChecker_NHS_Wales extends baseClass{
 					ClickEle(allInOnePage.radioBtnNo);
 					ClickEle(allInOnePage.AllPageNextBtn);
 					Wait(2000);
-					Match(getWindowTitle(), "Do you have an injury or illness caused by serving in the armed forces?", "Matching pregnancy window title");
+					Match(getWindowTitle(), "Do you have an injury or illness caused by serving in the armed forces?", "Matching injury or illness window title");
 				}
 				else {
 					ClickEle(allInOnePage.radioBtnYes);
 					ClickEle(allInOnePage.AllPageNextBtn);
 					Wait(2000);
-					Match(getWindowTitle(), "Do you have an injury or illness caused by serving in the armed forces?", "Matching pregnancy window title");
+					Match(getWindowTitle(), "Do you have an injury or illness caused by serving in the armed forces?", "Matching injury or illness window title");
 				}
 				//answering injury and illness question
 				if(injuryIllness.equals("No")){
 					ClickEle(allInOnePage.radioBtnNo);
 					ClickEle(allInOnePage.AllPageNextBtn);
 					Wait(2000);
-					Match(getWindowTitle(), "Do you have diabetes?", "Matching pregnancy window title");					
+					Match(getWindowTitle(), "Do you have diabetes?", "Matching diabetes window title");					
 				}
 				else {
 					ClickEle(allInOnePage.radioBtnYes);
 					ClickEle(allInOnePage.AllPageNextBtn);
 					Wait(2000);
-					Match(getWindowTitle(), "Do you have diabetes?", "Matching pregnancy window title");
+					Match(getWindowTitle(), "Do you have diabetes?", "Matching diabetes window title");
 				}
 				//answering diabetes question
 				if(isDiabetes.equals("No")) {
 					ClickEle(allInOnePage.radioBtnNo);
 					ClickEle(allInOnePage.AllPageNextBtn);
 					Wait(2000);
-					Match(getWindowTitle(), "Do you have glaucoma?", "Matching pregnancy window title");
+					Match(getWindowTitle(), "Do you have glaucoma?", "Matching glaucoma window title");
 				}
 				else {
 					ClickEle(allInOnePage.radioBtnYes);
 					ClickEle(allInOnePage.AllPageNextBtn);
 					Wait(2000);
-					Match(getWindowTitle(), "Do you have glaucoma?", "Matching pregnancy window title");
+					Match(getWindowTitle(), "Do you have glaucoma?", "Matching glaucoma window title");
 				}
 				//answering glaucoma question
 				if(isGlaocoma.equals("No")){
@@ -288,27 +288,27 @@ public class CostChecker_NHS_Wales extends baseClass{
 					ClickEle(allInOnePage.radioBtnYes);
 					ClickEle(allInOnePage.AllPageNextBtn);
 					Wait(2000);
-					Match(getWindowTitle(), "Do you live permanently in a care home?", "Matching pregnancy window title");
+					Match(getWindowTitle(), "Do you live permanently in a care home?", "Matching permanently care home window title");
 				}
 				//answering care home question
 				if(liveInCareHome.equals("No")) {
 					ClickEle(allInOnePage.radioBtnNo);
 					ClickEle(allInOnePage.AllPageNextBtn);
 					Wait(2000);
-					Match(getWindowTitle(), "Do you have more than £16,000 in savings, investments or property?", "Matching pregnancy window title");
+					Match(getWindowTitle(), "Do you have more than £16,000 in savings, investments or property?", "Matching £16,000 in savings window title");
 				}
 				//answering earning, investment question
 				if(moreThan16000.equals("No")) {
 					ClickEle(allInOnePage.radioBtnNo);
 					ClickEle(allInOnePage.AllPageNextBtn);
 					Wait(2000);
-					Match(getWindowTitle(), "You get help with health costs", "Matching pregnancy window title");
+					Match(getWindowTitle(), "You get help with health costs", "Matching results window title");
 				}
 				else {
 					ClickEle(allInOnePage.radioBtnYes);
 					ClickEle(allInOnePage.AllPageNextBtn);
 					Wait(2000);
-					Match(getWindowTitle(), "You get help with health costs", "Matching pregnancy window title");
+					Match(getWindowTitle(), "You get help with health costs", "Matching results window title");
 				}
 	}
 	
