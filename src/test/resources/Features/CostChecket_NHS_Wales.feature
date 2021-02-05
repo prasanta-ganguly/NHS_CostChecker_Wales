@@ -14,7 +14,7 @@ Feature: NHS Cost Checker for Wales
       |  05 |    02 | 1980 | Yes                 | No                | Yes         | Yes            | No          | Yes         | No              |        No             | Yes                    |                        |
 
 
-  #Scenario : 2
+  #Scenario 2 : Scenario for under 16 people
   Scenario Outline: Under 16 year old
     Given I am a person from Wales
     When I declare my circumstances into <Day>, <Month>, <Year>
@@ -25,7 +25,7 @@ Feature: NHS Cost Checker for Wales
       |  05 |    03 | 2010 |
 
 
-  #Scenario : 3
+  #Scenario 3 : Scenario for students
   Scenario Outline: For school-college-university students
     Given I am a person from Wales
     When I enter values into <Day>, <Month>, <Year>, <Full_Time_Education>, <Living_With_Partner>, <Claim_Benefit_Tax>, <Is_Pregnant>, <Injury_Illness>, <Is_Diabetes>, <Is_Glaucoma>, <Livein_Carehome>, <GetHelpFor_CoucilTax>, <Savings_MoreThan_16000>, <Savings_MoreThan_24000>
