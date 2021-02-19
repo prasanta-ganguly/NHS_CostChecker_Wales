@@ -183,7 +183,7 @@ public class CostChecker_NHS_Wales extends baseClass{
 					TypeText(allInOnePage.dobPageYear, year);
 					ClickEle(allInOnePage.AllPageNextBtn);
 					Wait(2000);
-					Match(getWindowTitle(), "Because you're under 16 you get help paying NHS costs", "Matching results window title"");
+					Match(getWindowTitle(), "Because you're under 16 you get help paying NHS costs", "Matching results window title");
 	}
 }
 
